@@ -23,3 +23,7 @@
        - name: Say Hello Main
          if: ${{ github.ref == 'refs/heads/main' }}
          run: echo "Hello, main!"
+
+       - name: Say Hello Main
+         if: ${{ github.ref == 'refs/heads/develop' }}
+         run: echo "Hello, develop!"
