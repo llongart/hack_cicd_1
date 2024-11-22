@@ -1,4 +1,5 @@
 import language from '../json/es-MX.json' with { type: 'json' };
+const testVar = 1;
 
 let stockTable = new DataTable('#stockTable', {
     language: language,
