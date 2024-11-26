@@ -51,8 +51,8 @@ let storesTable = new DataTable('#storesTable', {
     }      
 });
 
-addListenerMaterialMatchcode()
-function addListenerMaterialMatchcode(){
+addListenerMaterial()
+function addListenerMaterial(){
     const materialInput = document.querySelector('#id_material');
     if(materialInput != null){
         materialInput.addEventListener("dblclick", (e) => {
